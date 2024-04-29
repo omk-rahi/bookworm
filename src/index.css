@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App */
+
+a.active {
+  @apply border border-orange-400 bg-orange-300 md:border-0 md:border-b-2 md:border-orange-300 md:bg-transparent  md:font-bold md:text-orange-300;
+}
+
+body {
+  overflow-x: hidden;
+}
